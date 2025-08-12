@@ -62,11 +62,29 @@ o After finishing, click File > Exit to close Eclipse IDE.
 
 
 ## PROGRAM:
+```
+package addingnumbers;
+public class MatrixAdditionExample{
+public static void main(String args[]){
+int a[][]={{1,3,4},{2,4,5},{3,4,2}};
+int b[][]={{2,1,3},{2,1,4},{1,3,2}};
+int c[][]=new int[3][3];
+for(int i=0;i<3;i++){
+for(int j=0;j<3;j++){
+c[i][j]=a[i][j]+b[i][j]; 
+System.out.print(c[i][j]+" ");
+}
+System.out.println();
+}
+}}
+```
 
 ## OUTPUT:
+<img width="1043" height="899" alt="Screenshot 2025-08-12 151648" src="https://github.com/user-attachments/assets/3010f84f-b0ff-4864-9a97-a8f1c31bfa11" />
+
 
 ## RESULT:
 
-Thus, the program addition of two matrices using a Java program is developed, and the output is verified. 
+Thus, the program to add two matrices using a Java program is developed, and the output is verified. 
 
 
